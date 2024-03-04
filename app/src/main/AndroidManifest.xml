@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.roomieprototype">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PictureFromFirebase" />
+        <activity android:name=".signUp.SignUpActivity1" />
+        <activity android:name=".signUp.SignUpActivity2" />
+        <activity android:name=".signUp.SignUpActivity3" />
+        <activity android:name=".MatchingScreen" />
+        <activity android:name=".MessageActivity" />
+        <activity
+            android:name=".CardStack"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".UserAccount" />
+        <activity android:name=".UserInfo" />
+
+    </application>
+
+</manifest>
