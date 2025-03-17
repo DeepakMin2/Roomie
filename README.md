@@ -15,6 +15,19 @@ This Android application facilitates finding roommates in a city using a swiping
 - **Firebase:** Firebase is utilized for real-time database management, user authentication, and cloud messaging.
 - **Swipe Views:** The swipe-based interface is implemented using libraries or custom implementations for swipe gestures.
 
+## Screens
+<img src="https://github.com/user-attachments/assets/6e10a32d-6201-42db-9d8b-d6ee86132d11" width="250">
+
+<img src="https://github.com/user-attachments/assets/3cff3ee2-5ac6-4794-a626-3ee5c9dd9f62" width="250">
+
+<img src="https://github.com/user-attachments/assets/45d33e00-3153-4620-9e60-6b901b2b4852" width="250">
+
+<img src="https://github.com/user-attachments/assets/913022b4-b9ce-4410-870e-b182c2a997e3" width="250">
+
+<img src="https://github.com/user-attachments/assets/26c8205f-47cc-4d14-86e1-b0ea49699c5e" width="250">
+
+<img src="https://github.com/user-attachments/assets/66c0fcdc-3a01-4c2e-8263-dde32e041484" width="250">
+
 
 ## Installation
 To install the Roommate Finder app, follow these steps:
